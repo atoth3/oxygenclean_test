@@ -18,6 +18,8 @@ namespace OxygenClean_Test
         public void openPage()
         {
             driver.Url = "http://www.oxygenclean.hu/";
+            string title = driver.Title;
+            Assert.AreEqual(title, "Oxygen Clean");
         }
 
         [TearDown]
