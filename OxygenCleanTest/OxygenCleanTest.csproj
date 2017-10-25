@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicTests.cs" />
+    <Compile Include="Models\Pages\BasePage.cs" />
+    <Compile Include="Models\Pages\LogIn.cs" />
+    <Compile Include="Models\Pages\SignUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
